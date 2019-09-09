@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Gra 1",
+    "short_text": "opis gry 1",
+    "link": "www.youtube.pl",
+    "background": "/img/game1.jpeg",
+    "id": 11
+  },
+  {
+    "title": "Gra 2",
+    "short_text": "opis gry 2",
+    "link": "www.youtube.pl",
+    "background": "/img/game2.jpeg",
+    "id": 12
+  },
+  {
+    "title": "Gra 3",
+    "short_text": "opis gry 3",
+    "link": "www.youtube.pl",
+    "background": "/img/game3.jpeg",
+    "id": 13
+  },
+  {
+    "title": "Gra 4",
+    "short_text": "opis gry 4",
+    "link": "www.youtube.pl",
+    "background": "/img/game2.jpeg",
+    "id": 14
+  },
+  {
+    "title": "Gra 5",
+    "short_text": "opis gry 5",
+    "link": "www.youtube.pl",
+    "background": "/img/game3.jpeg",
+    "id": 15
+  }
+]
