@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './navigation_component';
 
 const Home = () => (
   <div>

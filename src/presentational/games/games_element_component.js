@@ -1,8 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const GameElement = props => {
-  return (
+  return(
     <article className="gallery-3d-element" data-angle="">
+      <Link to={'gry/' + props.game.id} className='game_link'>
+        Zagraj!
+      </Link>
       <h2 className="element-title">
         {props.game.title}
       </h2>
@@ -13,4 +17,4 @@ const GameElement = props => {
   )
 }
 
-export default GameElement;
+export default GameElement

@@ -79,6 +79,7 @@
   text-align: center;
   transition: 1.2s ease-in-out;
   border-radius: 10px;
+
 }
 
 .gallery-3d-element:not(.active) {
@@ -92,6 +93,16 @@
 
 .gallery-3d-element .element-title {
   display: none;
+}
+
+.game_link {
+  color: blue;
+  backface-visibility: hidden;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 13px;
 }
 
 /* === Details/description section === */

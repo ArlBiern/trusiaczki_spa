@@ -110,8 +110,8 @@ class GamesComponent extends Component {
     const text = this.gallery.querySelector('.gallery-3d-text');
     const activeElement = this.galleryElementsContainer.querySelector('.active');
 
-    title.innerText = activeElement.firstElementChild.innerText;
-    text.innerText = activeElement.lastElementChild.innerText;
+    title.innerText = activeElement.querySelector('.element-title').innerText;
+    text.innerText = activeElement.querySelector('.element-text').innerText;
   }
 
   setTransformValue() {

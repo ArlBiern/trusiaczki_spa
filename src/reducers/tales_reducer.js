@@ -1,4 +1,4 @@
-import { GET_TALES, GET_TALE, SEARCH_TALES } from '../actions/tales-actions';
+import { GET_TALES, GET_TALE } from '../actions/tales-actions';
 import talesData from '../data/tales.json'
 
 const initialState = {
