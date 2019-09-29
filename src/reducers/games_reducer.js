@@ -3,6 +3,7 @@ import gamesData from '../data/games.json';
 
 const initialState = {
   games: gamesData,
+  gamesNames: getNames(),
   selectedGame: {}
 }
 
@@ -16,6 +17,14 @@ const gamesReducer = function (state = initialState, action) {
     default:
       return state;
   }
+}
+
+function getNames() {
+  let namesArray = [];
+  for (let i=0; i < gamesData.length; i++) {
+    namesArray.push(gamesData[i].name);
+  }
+  return namesArray;
 }
 
 export default gamesReducer

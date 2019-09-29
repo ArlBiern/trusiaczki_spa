@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Memory = props => {
-  return(
-    <div>
-      {props.game.title}
-    </div>
-  )
+class Memory extends Component {
+
+  render () {
+    return (
+      <div>
+        <p>{this.props.game.title}</p>
+        <p>{this.props.game.short_text}</p>
+      </div>
+    )
+  }
+
 }
 
 export default Memory
