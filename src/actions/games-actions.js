@@ -7,9 +7,9 @@ export function getGames() {
   };
 };
 
-export function getGame(id) {
+export function getGame(name) {
   return {
     type: 'GET_GAME',
-    id
+    name
   };
 };

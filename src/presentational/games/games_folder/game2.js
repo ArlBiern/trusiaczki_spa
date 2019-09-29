@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Game2 = props => {
   return(
     <div>

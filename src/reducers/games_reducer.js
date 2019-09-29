@@ -11,7 +11,7 @@ const gamesReducer = function (state = initialState, action) {
     case GET_GAMES:
       return Object.assign({}, state, {games: state.games});
     case GET_GAME:
-      const selectedGame = state.games.find( game => game.id === parseInt(action.id) );
+      const selectedGame = state.games.find( game => game.name === action.name);
       return Object.assign({}, state, {selectedGame});
     default:
       return state;

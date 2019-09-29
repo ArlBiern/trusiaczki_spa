@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 const GameElement = props => {
   return(
     <article className="gallery-3d-element" data-angle="">
-      <Link to={'gry/' + props.game.id} className='game_link'>
+      <Link to={'gry/' + props.game.name} className='game_link'>
         Zagraj!
       </Link>
       <h2 className="element-title">

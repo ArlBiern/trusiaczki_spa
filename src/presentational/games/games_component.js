@@ -132,14 +132,14 @@ class GamesComponent extends Component {
             <div className="gallery-3d-elements">
               {this.props.games.map((game) =>  {
                 return (
-                  <GameElement key={game.id} game={game}/>
+                  <GameElement key={game.name} game={game}/>
                 )
               })}
             </div>
             <button className="gallery-3d-next"></button>
           </div>
           <div className="gallery-3d-element-details">
-            <h2 className="gallery-3d-title"></h2>
+            <h2 className="gallery-3d-title">a</h2>
             <p className="gallery-3d-text"></p>
           </div>
         </div>

@@ -17,24 +17,10 @@ export default (
     </Route>
     <Route path='gry' >
       <IndexRoute component={GamesComponent}/>
-      <Route path=':id' component={Game}/>
+      <Route path=':name' component={Game}/>
     </Route>
     <Route path='kolorowanki' component={Drawings}/>
     <Route path='sklep' component={Shop}/>
     <Route path='*' component={PageNotFound}/>
   </Route>
 );
-
-/*
-<Route path='bajki'>
-  <IndexRoute component={TalesMainView}/>
-  <Route path='zestawienie' component={TalesComponent}/>
-</Route>
-<Route path='gry' >
-  <IndexRoute component={GamesMainView}/>
-  <Route path='zestawienie'>
-    <IndexRoute component={GamesComponent}/>
-    <Route path=':id' component={Game}/>
-  </Route>
-</Route>
-*/

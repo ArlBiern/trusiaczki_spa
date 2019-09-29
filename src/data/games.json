@@ -3,35 +3,30 @@
     "title": "Dobierz pary",
     "short_text": "Gra polega na dopasowaniu wszystkich par kart o tej samej grafice",
     "background": "/img/game1.jpeg",
-    "id": 11,
-    "type": "memory"
+    "name": "memory"
   },
   {
     "title": "Gra 2",
     "short_text": "opis gry 2",
     "background": "/img/game2.jpeg",
-    "id": 12,
-    "type": "game2"
+    "name": "game2"
   },
   {
     "title": "Gra 3",
     "short_text": "opis gry 3",
     "background": "/img/game3.jpeg",
-    "id": 13,
-    "type": "game3"
+    "name": "game3"
   },
   {
     "title": "Gra 4",
     "short_text": "opis gry 4",
     "background": "/img/game2.jpeg",
-    "id": 14,
-    "type": "game4"
+    "name": "game4"
   },
   {
     "title": "Gra 5",
     "short_text": "opis gry 5",
     "background": "/img/game3.jpeg",
-    "id": 15,
-    "type": "game5"
+    "name": "game5"
   }
 ]
