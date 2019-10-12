@@ -1,7 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import HeroElement from '../hero_element';
+import { getHeroes } from '../../actions/hero-actions';
+import '../home/home.css';
 
-const Shop = () => (
-  <h1>To jest komponent SHOP!</h1>
-);
+class Shop extends Component {
+  componentDidMount() {
+    this.props.dispatch(getHeroes('4'));
+  }
 
-export default Shop;
+  render() {
+    return (
+      <div className="container">
+        <div className="hero">
+          <HeroElement hero={this.props.selectedHero} />
+        </div>
+      </div>
+    )
+  }
+}
+
+const mapStateToProps = function (store) {
+    return {
+        selectedHero: store.heroesReducer.selectedHero
+    };
+};
+
+export default connect(mapStateToProps)(Shop);

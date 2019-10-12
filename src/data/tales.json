@@ -1,32 +1,32 @@
 [
   {
     "title": "Bajka 1",
-    "short_text": "To jest opowieść o niesfornym trusiaczku",
-    "link": "www.youtube.pl",
+    "short_text": "Kim jest Trusiaczek?",
+    "link": "https://www.youtube.com/embed/tgbNymZ7vqY",
     "id": 1
   },
   {
     "title": "Bajka 2",
     "short_text": "To jest opowieść o najlepszym przyjacielu",
-    "link": "www.youtube.pl",
+    "link": "https://www.youtube.com/embed/_HEnohs6yYw",
     "id": 2
   },
   {
     "title": "Bajka 3",
     "short_text": "To jest opowieść o Żabie i Żuczku",
-    "link": "www.youtube.pl",
+    "link": "https://www.youtube.com/embed/tgbNymZ7vqY",
     "id": 3
   },
   {
     "title": "Bajka 4",
     "short_text": "To jest opowieść o życiu i uciekającym czasie",
-    "link": "www.youtube.pl",
+    "link": "https://www.youtube.com/embed/tgbNymZ7vqY",
     "id": 4
   },
   {
     "title": "Bajka 5",
     "short_text": "To jest opowieść o zimowej nocy",
-    "link": "www.youtube.pl",
+    "link": "https://www.youtube.com/embed/tgbNymZ7vqY",
     "id": 5
   }
 ]

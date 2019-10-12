@@ -44,28 +44,12 @@ nav .main_menu li .link {
 
 }
 
-nav .main_menu li:hover  {
-  padding-top: 15%;
-}
-
 nav ul li .link:hover {
   color: #fff;
 }
 
-.fairy_tales {
-  background: #ffe556;
-}
-
-.games {
-  background: #fa916e;
-}
-
-.drawings {
-  background: #c086c4;
-}
-
-.shop {
-  background: #35c8cc;
+nav ul li:hover {
+  box-shadow: inset 0px 20px 15px 0px #383838;
 }
 
 nav .main_menu .fairy_tales {

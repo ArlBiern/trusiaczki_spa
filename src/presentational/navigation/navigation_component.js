@@ -36,10 +36,10 @@ const Navigation = props => (
       <nav>
         <Link to='/'><img src="img/logo_T.png" className="logo logo_b" alt="logo" /></Link>
         <ul className="main_menu">
-          <li className="fairy_tales nav_color" data-name="tales"><Link to='/bajki' className="link">bajki</Link></li>
-          <li className="games nav_color" data-name="games"><Link to='/gry' className="link">gry</Link></li>
-          <li className="drawings nav_color" data-name="drawings"><Link to='/kolorowanki' className="link">rysowanki</Link></li>
-          <li className="shop nav_color" data-name="shop"><Link to='/sklep' className="link">sklep</Link></li>
+          <li className="fairy_tales"><Link to='/bajki' className="link">bajki</Link></li>
+          <li className="games"><Link to='/gry' className="link">gry</Link></li>
+          <li className="drawings"><Link to='/rysowanki' className="link">rysowanki</Link></li>
+          <li className="shop"><Link to='/sklep' className="link">sklep</Link></li>
         </ul>
         <img src="img/pointer_1.png" className="pointer" id="pointer_1" alt="strzałka" />
         <img src="img/pointer_2.png" className="pointer" id="pointer_2" alt="strzałka" />
@@ -49,10 +49,10 @@ const Navigation = props => (
               <span></span>
               <span className="cls">
                 <ul className="sub-menu">
-                  <li className="fairy_tales nav_color" data-name="tales"><Link to='/bajki' className="link"><i className="fa fa-book"></i>bajki</Link></li>
-                  <li className="games nav_color" data-name="games"><Link to='/gry' className="link"><i className="fa fa-gamepad"></i>gry</Link></li>
-                  <li className="drawings nav_color" data-name="drawings"><Link to='/kolorowanki' className="link"><i className="fa fa-pencil"></i>rysowanki</Link></li>
-                  <li className="shop nav_color" data-name="shop"><Link to='/sklep' className="link"><i className="fa fa-gift"></i>sklep</Link></li>
+                  <li className="fairy_tales"><Link to='/bajki' className="link"><i className="fa fa-book"></i>bajki</Link></li>
+                  <li className="games"><Link to='/gry' className="link"><i className="fa fa-gamepad"></i>gry</Link></li>
+                  <li className="drawings"><Link to='/rysowanki' className="link"><i className="fa fa-pencil"></i>rysowanki</Link></li>
+                  <li className="shop"><Link to='/sklep' className="link"><i className="fa fa-gift"></i>sklep</Link></li>
                 </ul>
               </span>
               <span></span>

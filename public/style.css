@@ -87,17 +87,19 @@ body {
 	margin: 0;
 	padding: 0;
 	animation: color-change-4x 10s linear infinite alternate both;
-
 }
 
 ul {
 	list-style: none;
 }
 
-.link {
+h2 {
+  text-decoration-line: underline overline;
+}
+
+.link, a {
 	text-decoration: none;
 	text-transform: uppercase;
-	/*letter-spacing: 2px;*/
 }
 
 .justify {
@@ -108,4 +110,31 @@ ul {
 	max-width: 1600px;
 	width: 100%;
 	margin: 1% auto;
+}
+
+.box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fairy_tales {
+  background: #ffe556;
+}
+
+.games {
+  background: #fa916e;
+}
+
+.drawings {
+  background: #c086c4;
+}
+
+.shop {
+  background: #35c8cc;
+}
+
+@media (max-width: 1400px) {
+  .box {
+    width: 85%;
+  }
 }
