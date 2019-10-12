@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "container_class_name": "fairy_tales",
+    "class_name": "fairy_tales_hero",
+    "title": "Trusiaczkowe opowieści",
+    "description": "Nikt nie wie od czego to wszystko się zaczęło, ostatecznie na symbiozie stanęło. Ale czy ktoś się skarży, żałuje, 'olaboga' wykrzykuje? Trusiaki są wśród nas! Niech już tak zostanie. W najgorszym przypadku zrobią Ci śniadanie. Niejeden Cię rozweseli, głośno się zaśmieje, nic złego się nie zadzieje. A może znajdziesz miłego przyjaciela... co czasem ciasteczka Ci podbiera. Jednak przeprosi i prezentem udobrucha, albo sekret szepnie Ci do ucha.",
+    "img_name": "menu_bajki"
+  },
+  {
+    "id": "2",
+    "container_class_name": "games",
+    "class_name": "games_hero",
+    "title": "Trusiaczkowe harce",
+    "description": "Świat bez zabawy to smutna sprawa, wiec bez namysłu z Trusiaczkami w szranki stawaj. Te małe stworki to psot wielbiciele. Minki niewinne lecz cwane głowy. Nie daj się zwieść ich urokowi. Można uruchomić dokazywanie. Możliwe że Kwazak Zmiennobarwny czymś dostanie. Czy znajdziesz Trusiaków pary? Oraz gdzie Tusie się schowały? Nie pozwól się oszukać. Na pewno zwyciężysz. A jeśli chwilka czasu zostanie to pograsz na magicznym fortepianie...",
+    "img_name": "menu_gry"
+  },
+  {
+    "id": "3",
+    "container_class_name": "drawings",
+    "class_name": "drawings_hero",
+    "title": "Artystyczne figle",
+    "description": "Plama ściga kreskę, maziaj kleksa goni. Jak tak dalej pójdzie, obraz się wyłoni. Kolor się przewija, raz żółty, raz zielony, a gdy tego potrzebujesz, zdarzy się czerwony. Te Trusiaczkowe figle artystyczne, mają znaczenie filozoficzne. Tak Trusiaczki dają otoczeniu znać o sobie. Choć to czasem nie mieści się w głowie. O swoich uczuciach, smutkach i radościach. Także o marzeniach i magicznych możliwościach. Chwytaj pędzel, kredki, farby. Niech twoja przygoda nabierze barwy.",
+    "img_name": "menu_kolorowanki"
+  },
+  {
+    "id": "4",
+    "container_class_name": "shop",
+    "class_name": "shop_hero",
+    "title": "Sekcja podarunkowa",
+    "description": "Gdy zabawy już Cię zmęczą, a Trusiaczki nadal necą - odwiedź nasz sklep z podarunkami, gdzie zaskoczymy Cię pięknymi rzeczami. Może chcesz złożyć drewnianą szklarnie lub obszerną trusiaczkową sypialnie? Jest też skrzynka, samochód czy kuferek i na noce zimne dla Trusiaka sweterek. Nie zabraknie figurek i maskotek, dla budowniczych znajdzie się też młotek. Zaś tych co interesują magiczne przedmiotów zdolności zapraszamy do sekcji naukowych rozmaitości.",
+    "img_name": "menu_sklep"
+  }
+]

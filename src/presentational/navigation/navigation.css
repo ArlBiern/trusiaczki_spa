@@ -1,0 +1,314 @@
+header {
+  position: relative;
+}
+
+/* --BASIC NAV-- */
+
+.logo {
+  width: 25%;
+  margin: 0;
+  padding: 2% 0 2% 4%;
+  animation: shake-bottom 4s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px 0px rgba(72,34,71,0.57);
+  border-radius: 20px 20px 0 0;
+  background: linear-gradient(172deg, #c95392 25%, #9ed2cf 55%);
+}
+
+nav .main_menu {
+  display: inline-block;
+  float: right;
+  width: 65%;
+  z-index: 3;
+}
+
+nav .main_menu li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 12% 5% 15%;
+  transition: .5s;
+  height: 100%;
+}
+
+nav .main_menu li .link {
+  color: #4d1a4b;
+  font-size: 28px;
+  margin: 0 auto;
+  padding: 40% 0;
+  transition: .5s;
+
+}
+
+nav ul li .link:hover {
+  color: #fff;
+}
+
+nav ul li:hover {
+  box-shadow: inset 0px 20px 15px 0px #383838;
+}
+
+nav .main_menu .fairy_tales {
+  border-radius: 20px 0 0 0;
+}
+
+nav .main_menu .shop {
+  border-radius: 0 20px 0 0;
+}
+
+/* --HAMBURGER MENU-- */
+
+nav .pointer {
+  display: none;
+  position: fixed;
+  right: 30px;
+  width: 13%;
+  z-index: 20;
+  opacity: 0.7;
+  
+}
+
+nav #pointer_1 {
+  top: 25px;
+  animation: shake-horizontal 4s ease infinite both;
+}
+
+nav #pointer_2 {
+  top: 15px;
+  animation: shake-horizontal 4s ease .7s infinite both;
+}
+
+nav .hamburger {
+  display: none;
+  position: fixed;
+  z-index: 11;
+  top: 0;
+  right: 0;
+  animation: color-change-4x 10s linear infinite alternate both;
+  width: 100px;
+  height: 100px;
+  border-bottom-left-radius: 100%;
+}
+
+nav .hamburger .menu {
+  z-index: 12;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  border-bottom-left-radius: 100%;
+}
+
+nav .hamburger .menu .open {
+  background: #fff;
+  position: fixed;
+  z-index: 13;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+  border-bottom-left-radius: 100%;
+}
+
+
+
+nav .hamburger span {
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 20px;
+  border-radius: 20px;
+  background: #4d1a4b;
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  transition: all 0.4s ease;
+}
+
+nav .hamburger span:nth-child(1) {
+  margin-top: 10px;
+}
+
+nav .hamburger span:nth-child(2) {
+  margin-top: 17px;
+}
+
+nav .hamburger span:nth-child(3) {
+  margin-top: 24px;
+}
+
+nav .hamburger .menu .open span .sub-menu {
+  transition: all 1.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 0;
+  width: 0;
+  right: 0;
+  top: -10px;
+  position: absolute;
+  border-left: 4px solid #fff;
+  border-bottom-left-radius: 100%;
+  overflow: hidden;
+}
+
+nav .hamburger .menu .open span .sub-menu li {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: block;
+  float: right;
+  clear: both;
+  padding: 7px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+nav .hamburger .menu .open span .sub-menu li:hover {
+    box-shadow: 0px 0px 5px 0px #fff;
+}
+
+nav .hamburger .menu .open span .sub-menu li i {
+  padding-right: 5px;
+}
+
+nav .hamburger .menu .open span .sub-menu li:nth-child(2) {
+  top: 50px;
+  left: 30px;
+}
+
+nav .hamburger .menu .open span .sub-menu li:nth-child(3) {
+  top: 90px;
+  left: 50px;
+}
+
+nav .hamburger .menu .open span .sub-menu li:nth-child(4) {
+  top: 130px;
+  left: 80px;
+}
+
+nav .hamburger .menu .openned span .sub-menu {
+  height: 300px;
+  width: 300px;
+}
+
+nav .hamburger .menu .openned span:nth-child(1), nav .hamburger .menu .openned span:nth-child(3) {
+  display: none;
+}
+
+nav .hamburger .menu .openned span:nth-child(2) {
+  border-radius: 50%;
+  margin-top: 10px;
+  border: 5px solid #4d1a4b;
+  background: none;
+  height: 20px;
+  width: 20px;
+}
+
+/* --RWD-- */
+@media (max-width: 1400px) {
+  nav {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1200px) {
+  nav .main_menu li {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+
+@media (max-width: 1100px) {
+  nav .main_menu {
+    width: 70%;
+  }
+  nav .main_menu li .link {
+    font-size: 24px;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+@media (max-width: 900px) {
+  nav .main_menu {
+    display: none;
+  }
+  nav .pointer {
+    display: block;
+  }
+  nav .hamburger {
+    display: block;
+  }
+  .logo {
+    width: 45%;
+  }
+  nav {
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  nav .hamburger .menu .openned span .sub-menu {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 35%;
+  }
+  nav .hamburger .menu .openned span .sub-menu {
+    height: 250px;
+    width: 250px;
+  }
+  nav .hamburger .menu .open span .sub-menu li {
+    font-size: 14px;
+    padding: 4px;
+    width: 120px;
+  }
+  nav .hamburger .menu .open span .sub-menu li:nth-child(2) {
+    top: 45px;
+  }
+  nav .hamburger .menu .open span .sub-menu li:nth-child(3) {
+    top: 80px;
+  }
+  nav .hamburger .menu .open span .sub-menu li:nth-child(4) {
+    top: 115px;
+  }
+}
+
+@media (max-width: 450px) {
+  nav .hamburger .menu .openned span .sub-menu {
+    height: 200px;
+    width: 200px;
+  }
+  nav .hamburger .menu .open span .sub-menu li {
+    font-size: 12px;
+    padding: 6px 4px;
+    width: 100px;
+  }
+  nav .pointer  {
+    width: 20%;
+  }
+}
+
+@media (max-width: 360px) {
+  nav .hamburger .menu .openned span .sub-menu {
+    height: 180px;
+    width: 180px;
+  }
+  nav .hamburger .menu .open span .sub-menu li {
+    font-size: 10px;
+    padding: 7px 2px;
+    width: 80px;
+  }
+}
